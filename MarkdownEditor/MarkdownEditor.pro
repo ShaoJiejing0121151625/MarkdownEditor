@@ -1,10 +1,11 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-09-24T15:42:18
+# Project created by QtCreator 2018-10-15T15:29:52
 #
 #-------------------------------------------------
 
 QT       += core gui
+Qt += webkitwidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -29,7 +30,13 @@ SOURCES += \
         mainwindow.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    code2html.h \
+    constant.h \
+    jing0.h \
+    lex.h \
+    md2html.h \
+    token.h
 
 FORMS += \
         mainwindow.ui
@@ -38,3 +45,7 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    style.css \
+    mdparser.exe
