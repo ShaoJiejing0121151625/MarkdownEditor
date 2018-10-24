@@ -236,6 +236,7 @@ Makefile: ..\MarkdownEditor\MarkdownEditor.pro D:\qt\5.11.2\msvc2017_64\mkspecs\
 		D:\qt\5.11.2\msvc2017_64\mkspecs\features\qt_config.prf \
 		D:\qt\5.11.2\msvc2017_64\mkspecs\win32-msvc\qmake.conf \
 		D:\qt\5.11.2\msvc2017_64\mkspecs\features\spec_post.prf \
+		.qmake.stash \
 		D:\qt\5.11.2\msvc2017_64\mkspecs\features\exclusive_builds.prf \
 		D:\qt\5.11.2\msvc2017_64\mkspecs\common\msvc-version.conf \
 		D:\qt\5.11.2\msvc2017_64\mkspecs\features\toolchain.prf \
@@ -426,6 +427,7 @@ D:\qt\5.11.2\msvc2017_64\mkspecs\features\qt_functions.prf:
 D:\qt\5.11.2\msvc2017_64\mkspecs\features\qt_config.prf:
 D:\qt\5.11.2\msvc2017_64\mkspecs\win32-msvc\qmake.conf:
 D:\qt\5.11.2\msvc2017_64\mkspecs\features\spec_post.prf:
+.qmake.stash:
 D:\qt\5.11.2\msvc2017_64\mkspecs\features\exclusive_builds.prf:
 D:\qt\5.11.2\msvc2017_64\mkspecs\common\msvc-version.conf:
 D:\qt\5.11.2\msvc2017_64\mkspecs\features\toolchain.prf:
